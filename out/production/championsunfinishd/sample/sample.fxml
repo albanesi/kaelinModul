@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="256.0" prefWidth="527.0" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="1.0" prefHeight="256.0" prefWidth="527.0">
+         <children>
+            <ImageView fitHeight="307.0" fitWidth="607.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../cl.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="21.0" layoutY="154.0" mnemonicParsing="false" text="Generate Champions League" />
+            <Button layoutX="343.0" layoutY="154.0" mnemonicParsing="false" text="Show the last Winners" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
